@@ -1,0 +1,51 @@
+/* src/components/ModulesNav.css */
+
+.modules-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .modules-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+    background: #ffffffcc;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 1rem 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .module-card {
+    background-color: #86ab73;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, background 0.3s ease;
+    min-width: 100px;
+    height: 65px;
+  }
+  
+  .module-card:hover {
+    background: #e6f5f0;
+    transform: scale(1.05);
+  }
+  
+  .icon-circle {
+    background-color: none;
+    font-size: x-large;
+  }
+  
+  .label {
+    font-weight: normal;
+    font-size: 1rem;
+    color: #222;
+  }

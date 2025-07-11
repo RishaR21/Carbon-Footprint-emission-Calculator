@@ -1,0 +1,267 @@
+/* General Dashboard Layout */
+.updated-dashboard {
+    display: flex;
+    height: 100%;
+    background-color: #f0f8ea;
+  }
+  
+  /* Sidebar Styling */
+  .updated-sidebar {
+    width: 250px;
+    background-color: #2e4b40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+  }
+  
+  .updated-profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .updated-profile-img {
+    width: 60px;
+    height: 60px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .updated-sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .updated-sidebar nav ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .updated-sidebar nav ul li:hover,
+  .updated-sidebar .active {
+    background-color: #3e5f50;
+  }
+  
+  /* Main Content Area */
+  .updated-main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 270px;
+    width: calc(100% - 270px);
+  }
+  
+  /* Top Navigation Bar */
+  .updated-top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .updated-weather {
+    font-size: 16px;
+  }
+  
+  .updated-nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .updated-menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Menu */
+  .updated-menu-container {
+    position: relative;
+  }
+  
+  .updated-dropdown-menu {
+    position: absolute;
+    right: 0;
+    background: white;
+    border-radius: 5px;
+    flex-direction: column;
+    min-width: 120px;
+    text-align: center;
+    top: 50px;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .updated-dropdown-menu.show {
+    display: flex;
+  }
+  
+  .updated-dropdown-menu button {
+    color: #3b7d1a;
+    font-weight: 500;
+    width: 100%;
+    background: none;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .updated-dropdown-menu button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Profile Summary */
+  .updated-profile-summary {
+    background-color: #eaf7db;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .updated-user-details h2 {
+    margin-bottom: 5px;
+    color: #2e4b40;
+  }
+  
+  /* Emission Sections*/
+  .updated-emission-section {
+    background-color: #f2fbeb;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  } 
+  
+  .updated-emission-section h3 {
+    color: #2e4b40;
+  }
+  
+  .profedit-box {
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 22px;
+    margin: 24px auto;
+    transition: all 0.3s ease;
+  }
+  
+  .profedit-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .profedit-head h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .profedit-close {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: #b71c1c;
+    cursor: pointer;
+  }
+  
+  .profedit-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    animation: slideDrop 0.3s ease-in-out;
+  }
+  
+  .profedit-form label {
+    font-weight: 500;
+    color: #2d2d2d;
+  }
+  
+  .profedit-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: 6px;
+  }
+  
+  .profedit-btn {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .profedit-btn:hover {
+    background-color: #125ea6;
+  }
+  
+  .profedit-msg {
+    margin-top: 12px;
+    color: #388e3c;
+    font-weight: 500;
+  }
+  
+  /* Animation */
+  @keyframes slideDrop {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .chatbot-container {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 1000;
+    
+  }
+  .updated-chat-icon{
+    cursor: pointer;
+    font-size: 30px;
+  }
+  .btn_signin{
+    margin-top: 0;
+  }
+  .btn_signin:hover{
+    background-color: #3b7d1a;
+    
+  }
+  

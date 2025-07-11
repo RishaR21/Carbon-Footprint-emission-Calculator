@@ -1,0 +1,341 @@
+{
+    "intents": [
+      {
+        "tag": "transportation_emission",
+        "patterns": [
+          "How do electric cars affect carbon emissions?"
+        ],
+        "responses": [
+          "Electric cars help reduce carbon emissions, especially when charged using renewable energy, making them a cleaner alternative to traditional cars."
+        ]
+      },
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hello! How can I help you today?", "Hi there! Ask me anything."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+        "responses": ["Goodbye! Stay green!", "See you soon!", "Take care!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "Thanks a lot"],
+        "responses": ["You're welcome!", "No problem!", "Happy to help!"]
+      },
+      {
+        "tag": "emission_info",
+        "patterns": ["What is carbon emission?", "Tell me about CO2 emission", "Why are emissions bad?"],
+        "responses": [
+          "Carbon emissions refer to the release of carbon dioxide into the atmosphere. It's a major contributor to global warming.",
+          "CO2 emissions mostly come from burning fossil fuels, and they contribute to climate change.",
+          "Too much carbon in the atmosphere causes the planet to heat up. That's why reducing emissions is important."
+        ]
+      },
+      {
+        "tag": "reduce_emission",
+        "patterns": ["How can I reduce my carbon footprint?", "Tips to lower emissions", "Ways to reduce pollution"],
+        "responses": [
+          "You can reduce emissions by using public transport, recycling, eating less meat, and conserving energy.",
+          "Try switching to renewable energy, walking or cycling more, and avoiding single-use plastics.",
+          "Using energy-efficient appliances and reducing waste also help a lot!"
+        ]
+      },
+      {
+        "tag": "transport_emission",
+        "patterns": ["Which transport emits the most CO2?", "Does flying pollute more?", "Is car better than bus for environment?"],
+        "responses": [
+          "Airplanes emit the most CO2 per kilometer. Buses and trains are more eco-friendly.",
+          "Cars can be polluting, especially if they're old or run on diesel. Electric or hybrid cars are better.",
+          "Public transport like trains and buses generally have lower emissions than private vehicles."
+        ]
+      },
+      {
+        "tag": "climate_change",
+        "patterns": ["What is climate change?", "Tell me about global warming", "Why is climate changing?"],
+        "responses": [
+          "Climate change is the long-term alteration of temperature and weather patterns, mainly due to human activity.",
+          "Global warming is caused by greenhouse gases trapping heat in the Earth's atmosphere.",
+          "Burning fossil fuels, deforestation, and industrial pollution are major causes of climate change."
+        ]
+      },
+      {
+        "tag": "name_query",
+        "patterns": ["What is your name?", "Who are you?", "Tell me your name"],
+        "responses": [
+          "I'm your eco-friendly assistant chatbot!",
+          "You can call me EcoBot 🌱.",
+          "I’m here to help you with emission info and green tips!"
+        ]
+      },
+      {
+        "tag": "transportation_vehicles_emission",
+        "patterns": [
+        "What is the carbon emission of electric vehicles?"
+        ],
+        "responses": [
+          "Carbon emissions of electric vehicles are mainly associated with electricity generation and battery production, but they are still lower overall than gasoline vehicles."
+        ]
+      },
+      {
+        "tag": "transportation_vehicles",
+        "patterns": [
+        "How much CO2 do electric vehicles produce?"
+        ],
+        "responses": [
+          "Electric vehicles produce very low CO2 emissions during use, especially when powered by renewable energy sources."
+        ]
+      },
+      {
+        "tag": "transportation_Carbon",
+        "patterns": [
+        "How much carbon is released by electric cars?"
+        ],
+        "responses": [
+          "Electric cars release almost no carbon during operation but may contribute indirectly through electricity generation and battery manufacturing."
+        ]
+      },
+      {
+        "tag": "transportation_C02",
+        "patterns": [
+         "How much CO2 does an electric car produce?"
+        ],
+        "responses": [
+          "Electric cars produce little to no CO2 during operation, but some emissions occur during battery production and electricity generation."
+        ]
+      },
+      {
+        "tag": "transportation_reduction_car",
+        "patterns": [
+         "What is the carbon footprint of an electric car?"
+        ],
+        "responses": [
+          "The carbon footprint of an electric car depends on the electricity source used for charging. Overall, it's much lower than that of gasoline or diesel vehicles over its lifetime."
+        ]
+      },
+      {
+        "tag": "transportation_reduction_electric_car",
+        "patterns": [
+         "How much carbon do electric cars emit?"
+        ],
+        "responses": [
+          "Electric cars emit significantly less carbon dioxide during use compared to gasoline vehicles. However, emissions can occur during electricity production and manufacturing."
+        ]
+      },
+
+      {
+        "tag": "transportation_reduction",
+        "patterns": [
+          "How does using public transportation help the environment?"
+        ],
+        "responses": [
+          "Public transportation reduces traffic congestion, lowers greenhouse gas emissions, and saves energy per passenger."
+        ]
+      },
+
+
+      {
+        "tag": "transport_electric",
+        "patterns": [
+          "How can electric cars reduce emissions?"
+        ],
+        "responses": [
+          "Electric cars reduce emissions by using electricity instead of fossil fuels and producing no tailpipe emissions during operation."
+        ]
+      },
+
+      {
+        "tag": "transport_public",
+        "patterns": [
+          "How can I reduce my carbon footprint with public transport?"
+        ],
+        "responses": [
+          "Using buses and trains instead of personal vehicles reduces fuel use and emissions per person, helping to lower your carbon footprint."
+        ]
+      },
+
+
+      {
+        "tag": "diet_meat_impact",
+        "patterns": [
+          "What is the environmental impact of eating meat?"
+        ],
+        "responses": [
+          "Meat production has a high environmental impact due to greenhouse gas emissions, land use, and water consumption, especially from beef and lamb."
+        ]
+      },
+      {
+        "tag": "diet_plant_based",
+        "patterns": [
+          "Is a plant-based diet better for the environment?"
+        ],
+        "responses": [
+          "Yes, plant-based diets tend to have a lower carbon footprint and use fewer natural resources than meat-heavy diets."
+        ]
+      },
+      {
+        "tag": "diet_dairy_impact",
+        "patterns": [
+          "How does dairy consumption affect the environment?"
+        ],
+        "responses": [
+          "Dairy production contributes to greenhouse gas emissions, especially methane from cows, and requires significant water and land use."
+        ]
+      },
+      {
+        "tag": "diet_local_food",
+        "patterns": [
+          "Does eating locally grown food reduce carbon emissions?"
+        ],
+        "responses": [
+          "Yes, locally grown food typically reduces transportation emissions and supports sustainable agriculture."
+        ]
+      },
+      {
+        "tag": "diet_imported_food",
+        "patterns": [
+          "What is the carbon footprint of imported food?"
+        ],
+        "responses": [
+          "Imported food can have a higher carbon footprint due to emissions from long-distance transportation and cold storage."
+        ]
+      },
+      {
+        "tag": "diet_food_waste",
+        "patterns": [
+          "How does food waste contribute to climate change?"
+        ],
+        "responses": [
+          "Food waste contributes to climate change by generating methane in landfills and wasting the resources used to produce the food."
+        ]
+      },
+      {
+        "tag": "diet_organic_food",
+        "patterns": [
+          "Are organic foods more sustainable?"
+        ],
+        "responses": [
+          "Organic farming avoids synthetic fertilizers and pesticides, which can benefit biodiversity and soil health, but yields are often lower, affecting land use."
+        ]
+      },
+      {
+        "tag": "diet_low_carbon_protein",
+        "patterns": [
+          "What are low-carbon protein alternatives?"
+        ],
+        "responses": [
+          "Low-carbon protein options include lentils, beans, tofu, tempeh, and insects, which produce fewer emissions than meat."
+        ]
+      },
+      {
+        "tag": "waste_plastic_impact",
+        "patterns": [
+          "How does plastic waste impact the environment?"
+        ],
+        "responses": [
+          "Plastic waste contributes to pollution, harms wildlife, and generates greenhouse gases during production and decomposition."
+        ]
+      },
+      {
+        "tag": "waste_recycling_benefit",
+        "patterns": [
+          "Why is recycling important for the environment?"
+        ],
+        "responses": [
+          "Recycling conserves resources, saves energy, and reduces emissions by avoiding the need for new raw materials."
+        ]
+      },
+      {
+        "tag": "waste_landfill_emission",
+        "patterns": [
+          "What is the carbon footprint of landfilling waste?"
+        ],
+        "responses": [
+          "Landfills emit methane, a potent greenhouse gas, as organic waste decomposes anaerobically, significantly contributing to climate change."
+        ]
+      },
+      {
+        "tag": "waste_composting_emission",
+        "patterns": [
+          "Does composting help reduce emissions?"
+        ],
+        "responses": [
+          "Yes, composting reduces methane emissions from landfills and enriches soil, promoting carbon sequestration."
+        ]
+      },
+      {
+        "tag": "waste_electronic",
+        "patterns": [
+          "What is e-waste and why is it harmful?"
+        ],
+        "responses": [
+          "E-waste includes discarded electronics that can release toxic chemicals and heavy metals, harming the environment and human health."
+        ]
+      },
+      {
+        "tag": "waste_reuse_benefit",
+        "patterns": [
+          "Can reusing items reduce carbon emissions?"
+        ],
+        "responses": [
+          "Yes, reusing items extends their lifespan and reduces the demand for new products, lowering emissions from production and disposal."
+        ]
+      },
+      {
+        "tag": "energy_electricity_emission",
+        "patterns": [
+          "How does electricity use affect carbon emissions?"
+        ],
+        "responses": [
+          "Electricity generated from fossil fuels like coal and natural gas releases significant amounts of carbon dioxide."
+        ]
+      },
+      {
+        "tag": "energy_renewable_benefit",
+        "patterns": [
+          "Is renewable energy better for the environment?"
+        ],
+        "responses": [
+          "Yes, renewable sources like solar and wind produce little to no emissions during operation and are more sustainable long-term."
+        ]
+      },
+      {
+        "tag": "energy_solar_footprint",
+        "patterns": [
+          "What is the carbon footprint of solar panels?"
+        ],
+        "responses": [
+          "Solar panels have a carbon footprint during manufacturing, but they produce clean energy over time, offsetting their initial impact."
+        ]
+      },
+      {
+        "tag": "energy_reduction_tips",
+        "patterns": [
+          "How can I reduce my electricity-related emissions?"
+        ],
+        "responses": [
+          "You can reduce emissions by using energy-efficient appliances, switching to LED lights, and sourcing electricity from renewables."
+        ]
+      },
+      {
+        "tag": "energy_green_definition",
+        "patterns": [
+          "What is green energy?"
+        ],
+        "responses": [
+          "Green energy refers to electricity generated from natural, renewable sources like solar, wind, hydro, and geothermal, which have minimal environmental impact."
+        ]
+      },
+      {
+        "tag": "energy_conservation_benefit",
+        "patterns": [
+          "How does energy conservation help the environment?"
+        ],
+        "responses": [
+          "Conserving energy reduces demand on power plants, lowers emissions, and decreases the consumption of non-renewable resources."
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "intents": [
+      {
+        "tag": "reduce_home_emissions",
+        "patterns": [
+          "How can I save electricity at home?",
+          "Tips to reduce home energy use",
+          "Cut my power bill"
+        ],
+        "responses": [
+          "Switch to LED lights, unplug devices when not in use, and optimize thermostat settings."
+        ]
+      },
+      {
+        "tag": "transport_emissions",
+        "patterns": [
+          "Best way to commute eco-friendly?",
+          "How to reduce car pollution?",
+          "Public transport vs driving?"
+        ],
+        "responses": [
+          "Use public transport, carpool, bike, or switch to electric vehicles if possible."
+        ]
+      },
+      {
+        "tag": "diet_emissions",
+        "patterns": [
+          "Can diet affect carbon footprint?",
+          "Meat vs plant-based impact?",
+          "Eat sustainably?"
+        ],
+        "responses": [
+          "A plant-based diet tends to have a lower carbon footprint. Consider reducing meat consumption."
+        ]
+      }
+    ]
+  }
+  
